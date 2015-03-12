@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <Document>
+      <name><![CDATA[Specimen Search]]></name>
+      <Style id="icon1">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_yellow.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon2">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_green.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon3">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_blue.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon4">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_orange.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon5">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_red.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon6">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_ffffff.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon7">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_ffc0cb.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon8">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_40e0d0.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon9">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_ee82ee.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon10">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_ff1493.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon11">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_ff69b4.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon12">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_32cd32.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon13">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_800080.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon14">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_c0c0c0.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon15">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_c08fc0.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon16">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_pin_c08f2b.png</href>
+            </Icon>
+            <hotSpot x="6" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon17">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_blue.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon18">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_green.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon19">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_orange.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon20">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_red.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon21">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_yellow.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon22">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_black.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon23">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_black_sm.png</href>
+            </Icon>
+            <hotSpot x="2" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon24">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_circle_black.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon25">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_circle_black_sm.png</href>
+            </Icon>
+            <hotSpot x="3" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon26">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_circle_black_empty.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon27">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_square_black_empty.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon28">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_triangle_black.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon29">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_triangle_black_empty.png</href>
+            </Icon>
+            <hotSpot x="5" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Style id="icon30">
+         <IconStyle>
+            <scale>1.0</scale>
+            <Icon>
+               <href>http://www.tropicos.org/images/map_triangle_black_sm.png</href>
+            </Icon>
+            <hotSpot x="4" y="0" xunits="pixels" yunits="pixels" />
+         </IconStyle>
+         <BalloonStyle>
+            <!-- a background color for the balloon -->
+            <bgColor>00ffffff</bgColor>
+            <!-- styling of the balloon text -->
+            <text><![CDATA[<b><font face='Verdana' size='3' color='#000000'>$[description]</font>]]></text>
+         </BalloonStyle>
+      </Style>
+      <Placemark>
+         <name><![CDATA[Gentry, Alwyn Howard - 73577]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/445892" target="_blank">Gentry, Alwyn Howard - 73577</a></td></tr><tr><td>27 March 1991</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.2500000,19.7300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Miranda González, Faustino - 6376]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041311" target="_blank">Miranda González, Faustino - 6376</a></td></tr><tr><td>12 Jun 1950</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.2700000,16.8000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 25947]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2060894" target="_blank">Breedlove, Dennis E. - 25947</a></td></tr><tr><td>30 June 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.3400000,15.3200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Croat, Thomas Bernard - 47336]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2765510" target="_blank">Croat, Thomas Bernard - 47336</a></td></tr><tr><td>11 February 1979</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.2700000,15.4500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Maza-Villalobos Mendez, Susana - 174]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3197709" target="_blank">Maza-Villalobos Mendez, Susana - 174</a></td></tr><tr><td>9 Mar 2002</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9300000,15.7000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Martínez Meléndez, Jorge - 1309]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3288165" target="_blank">Martínez Meléndez, Jorge - 1309</a></td></tr><tr><td>14 Jun 2006</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9700000,15.7300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Miller, James (Jim) Spencer - 3180]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/445047" target="_blank">Miller, James (Jim) Spencer - 3180</a></td></tr><tr><td>19 June 1987</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.7000000,21.5800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Miller, James (Jim) Spencer - 3200]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/445089" target="_blank">Miller, James (Jim) Spencer - 3200</a></td></tr><tr><td>21 June 1987</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.6500000,21.3300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ibarra Manríquez, Guillermo - 5753]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100210916" target="_blank">Ibarra Manríquez, Guillermo - 5753</a></td></tr><tr><td>31 agosto 2002</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.3500000,19.2000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Salvato, T. B. - 216]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100251810" target="_blank">Salvato, T. B. - 216</a></td></tr><tr><td>02 August 2003</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.6900000,16.8900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Jimeno Sevilla, D. - DJ845]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100408261" target="_blank">Jimeno Sevilla, D. - DJ845</a></td></tr><tr><td>29 enero 2009</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.0500000,18.6000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Nee, Michael Harley - 33078]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100414053" target="_blank">Nee, Michael Harley - 33078</a></td></tr><tr><td>20 September 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.3500000,18.6800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Nee, Michael Harley - 33106]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100414113" target="_blank">Nee, Michael Harley - 33106</a></td></tr><tr><td>20 September 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.3500000,18.6800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Carnevali, Germán - 7553]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100551028" target="_blank">Carnevali, Germán - 7553</a></td></tr><tr><td>22 septiembre 2010</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.3300000,21.3000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Neill, David A. - 5581]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/446686" target="_blank">Neill, David A. - 5581</a></td></tr><tr><td>29 Mar. 1983</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.8300000,16.8300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Schatz, George Edward - 1189]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2043448" target="_blank">Schatz, George Edward - 1189</a></td></tr><tr><td>5 June 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.6700000,17.2700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Brigada Dorantes - 2548]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2043614" target="_blank">Brigada Dorantes - 2548</a></td></tr><tr><td>13/03/1974</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.6700000,17.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Wendt, Thomas (Tom) Leighton - 3014]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2045010" target="_blank">Wendt, Thomas (Tom) Leighton - 3014</a></td></tr><tr><td>20 March 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.8500000,17.1200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Vázquez Torres, Mario - 521]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2045181" target="_blank">Vázquez Torres, Mario - 521</a></td></tr><tr><td>02/05/1974</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.6200000,17.2700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[García P., José D. - 1569]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2045513" target="_blank">García P., José D. - 1569</a></td></tr><tr><td>20 noviembre 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.7700000,19.1800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 12631]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2046194" target="_blank">Hinton, George Boole - 12631</a></td></tr><tr><td>21 Nov 1938</td></tr><tr><td><a href="http://www.tropicos.org/image/100011227" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100011000/100011227.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-103.6300000,18.5500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ponce C., Fernando - 194]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2046278" target="_blank">Ponce C., Fernando - 194</a></td></tr><tr><td>14 March 1974</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.6700000,17.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 14082]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2046608" target="_blank">Hinton, George Boole - 14082</a></td></tr><tr><td>5 May 1938</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-101.8400000,18.2100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gregg, Josiah - 917]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047648" target="_blank">Gregg, Josiah - 917</a></td></tr><tr><td>26 May 1848</td></tr><tr><td><a href="http://www.tropicos.org/image/100142225" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100142000/100142225.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.3200000,21.0300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gregg, Josiah - 917]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047993" target="_blank">Gregg, Josiah - 917</a></td></tr><tr><td>26 May 1848</td></tr><tr><td><a href="http://www.tropicos.org/image/100142254" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100142000/100142254.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.3200000,21.0300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gregg, Josiah - s.n.]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048075" target="_blank">Gregg, Josiah - s.n.</a></td></tr><tr><td>27 May 1849</td></tr><tr><td><a href="http://www.tropicos.org/image/100142259" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100142000/100142259.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.5300000,21.0700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ibarra Manríquez, Guillermo - 657]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048135" target="_blank">Ibarra Manríquez, Guillermo - 657</a></td></tr><tr><td>02 junio 1983</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.0700000,18.5700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Fisher, George L. - s.n.]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048267" target="_blank">Fisher, George L. - s.n.</a></td></tr><tr><td>24 julio 1924 - 27 julio 1924</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.1500000,19.1200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 2042]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048401" target="_blank">Hinton, George Boole - 2042</a></td></tr><tr><td>10 Oct 1932</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.9400000,19.0000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 13739]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048533" target="_blank">Hinton, George Boole - 13739</a></td></tr><tr><td>05 May 1939</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-103.3400000,18.6800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Davidse, Gerrit - 9971]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>altamiranum</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1772690" target="_blank">Davidse, Gerrit - 9971</a></td></tr><tr><td>22 August 1975</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-103.8100000,23.7400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Palmer, Edward - 478]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048134" target="_blank">Palmer, Edward - 478</a></td></tr><tr><td>May 1, 1907 - June 13, 1907</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.1400000,23.7300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Palmer, Edward - 379]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049147" target="_blank">Palmer, Edward - 379</a></td></tr><tr><td>May 1, 1907 - June 13, 1907</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.1400000,23.7300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Nee, Michael Harley - 32683]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049416" target="_blank">Nee, Michael Harley - 32683</a></td></tr><tr><td>17 August 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.6500000,23.6300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Palmer, Edward - 19]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049483" target="_blank">Palmer, Edward - 19</a></td></tr><tr><td>Febuary 1, 1907 - April 9, 1907</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.1400000,23.7300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 6140]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048943" target="_blank">Purpus, Carl (Karl) Albert - 6140</a></td></tr><tr><td>August 1912</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.6100000,19.3800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Leavenworth, William Clarence - 232]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049958" target="_blank">Leavenworth, William Clarence - 232</a></td></tr><tr><td>June 30, 1940</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.0000000,21.9800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[González Ortega, Jesús - 7491]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050853" target="_blank">González Ortega, Jesús - 7491</a></td></tr><tr><td>noviembre 1934</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-106.4300000,23.2300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Reina Guerrero, Ana Lilia - 2008-753]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100325149" target="_blank">Reina Guerrero, Ana Lilia - 2008-753</a></td></tr><tr><td>27 November 2008</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-105.9600000,23.3700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, James (Jaime) C. - 17934]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>berlandieri</i> B.L. Rob.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3601929" target="_blank">Hinton, James (Jaime) C. - 17934</a></td></tr><tr><td>05 August 1980</td></tr><tr><td><a href="http://www.tropicos.org/image/100012380" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100012000/100012380.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.5700000,24.0800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, James (Jaime) C. - 16525]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3600421" target="_blank">Hinton, James (Jaime) C. - 16525</a></td></tr><tr><td>01 July 1944</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-102.1500000,25.6300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Johnston, Marshall Conring - 11623]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050450" target="_blank">Johnston, Marshall Conring - 11623</a></td></tr><tr><td>5 July 1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-101.0300000,25.8000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Edwards, Mary Taylor - 292]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049085" target="_blank">Edwards, Mary Taylor - 292</a></td></tr><tr><td>6/21/1937</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.3100000,26.0100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Chiang Cabrera, Fernando - 9112]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049830" target="_blank">Chiang Cabrera, Fernando - 9112</a></td></tr><tr><td>2 Sept. 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-103.4200000,27.1800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gregg, Josiah - 494]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048949" target="_blank">Gregg, Josiah - 494</a></td></tr><tr><td>22 September 1848</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.9100000,25.9000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Chiang Cabrera, Fernando - 7877]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049623" target="_blank">Chiang Cabrera, Fernando - 7877</a></td></tr><tr><td>17 June 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-102.2200000,24.7700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Johnston, Marshall Conring - 10445]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048204" target="_blank">Johnston, Marshall Conring - 10445</a></td></tr><tr><td>28 march 73</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-102.2300000,24.7500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Chiang Cabrera, Fernando - 7858]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048606" target="_blank">Chiang Cabrera, Fernando - 7858</a></td></tr><tr><td>VI*16*72</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-102.5200000,24.9200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Johnston, Marshall Conring - 11193]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047858" target="_blank">Johnston, Marshall Conring - 11193</a></td></tr><tr><td>23 May 1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.6700000,22.5300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 7344]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049484" target="_blank">Hinton, George Boole - 7344</a></td></tr><tr><td>7 Feb 1935</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.1900000,18.8800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ibarra Manríquez, Guillermo - 1783]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049757" target="_blank">Ibarra Manríquez, Guillermo - 1783</a></td></tr><tr><td>24 junio 1984</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.0700000,18.5700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 9011]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049013" target="_blank">Hinton, George Boole - 9011</a></td></tr><tr><td>12 April 1936</td></tr><tr><td><a href="http://www.tropicos.org/image/100023157" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100023000/100023157.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.9400000,19.0000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ibarra Manríquez, Guillermo - 3542]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050380" target="_blank">Ibarra Manríquez, Guillermo - 3542</a></td></tr><tr><td>13 marzo 1991</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.0700000,18.5800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Rzedowski, Jerzy - 31150]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050582" target="_blank">Rzedowski, Jerzy - 31150</a></td></tr><tr><td>13 noviembre 1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.7700000,19.1200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hernández G., Heriberto M. - 2236]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050649" target="_blank">Hernández G., Heriberto M. - 2236</a></td></tr><tr><td>10 junio 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.7300000,16.8700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Croat, Thomas Bernard - 45263]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050650" target="_blank">Croat, Thomas Bernard - 45263</a></td></tr><tr><td>08 January 1979</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-105.0300000,21.5500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 317]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3601847" target="_blank">Hinton, George Boole - 317</a></td></tr><tr><td>25 Feburary 1932</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.0500000,19.0300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 13738]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2051063" target="_blank">Hinton, George Boole - 13738</a></td></tr><tr><td>05 May 1939</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-103.3400000,18.6800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 2367]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3608352" target="_blank">Hinton, George Boole - 2367</a></td></tr><tr><td>05 November 1932</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.0500000,19.0300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Velasco-Sinaca, Eladio - EVS 620]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100483347" target="_blank">Velasco-Sinaca, Eladio - EVS 620</a></td></tr><tr><td>05 April 2005</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.1100000,18.5800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ledesma Corral, Jaime Canek - 2118]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100663504" target="_blank">Ledesma Corral, Jaime Canek - 2118</a></td></tr><tr><td>07 diciembre 2011</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.1400000,19.1200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ibarra Manríquez, Guillermo - 6466]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>affine</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100672985" target="_blank">Ibarra Manríquez, Guillermo - 6466</a></td></tr><tr><td>23 abril 2013</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.0800000,18.5900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, James (Jaime) C. - 16544]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3600442" target="_blank">Hinton, James (Jaime) C. - 16544</a></td></tr><tr><td>05 July 1944</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-102.1500000,25.6300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Sebastian - 25828]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>brachyanthum</i> (A. Gray ex Hemsl.) A. Gray</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3610532" target="_blank">Hinton, George Sebastian - 25828</a></td></tr><tr><td>09 September 1996</td></tr><tr><td><a href="http://www.tropicos.org/image/100019961" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100019000/100019961.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.1800000,23.9100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Jimeno Sevilla, D. - DJ1160]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100419358" target="_blank">Jimeno Sevilla, D. - DJ1160</a></td></tr><tr><td>13 August 2009</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.2000000,18.8500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ramos Álvarez, Clara Hilda - 2430]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100434738" target="_blank">Ramos Álvarez, Clara Hilda - 2430</a></td></tr><tr><td>10 mayo 2003</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.3800000,18.1100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Reynoso Santos, Marcos David - 48]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3220415" target="_blank">Reynoso Santos, Marcos David - 48</a></td></tr><tr><td>21 Abr 2005</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9300000,15.7500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Martínez Meléndez, Jorge - 1208]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3224651" target="_blank">Martínez Meléndez, Jorge - 1208</a></td></tr><tr><td>23 Mar 2006</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6800000,15.4800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ríos Alegría, Angélica - 280]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3295967" target="_blank">Ríos Alegría, Angélica - 280</a></td></tr><tr><td>21 Apr 2005</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.0400000,15.8000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Beaman, John Homer - 5683]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048340" target="_blank">Beaman, John Homer - 5683</a></td></tr><tr><td>14 febrero 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.2000000,18.5500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 40496]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041110" target="_blank">Breedlove, Dennis E. - 40496</a></td></tr><tr><td>21 Sep 1976</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.0400000,16.0500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 37002]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041276" target="_blank">Breedlove, Dennis E. - 37002</a></td></tr><tr><td>31 August 1974</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-91.7400000,16.1200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 21078]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041569" target="_blank">Breedlove, Dennis E. - 21078</a></td></tr><tr><td>20 October 1971</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.4500000,16.8800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 3713]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452132" target="_blank">Cabrera Cano, Edgar Francisco - 3713</a></td></tr><tr><td>22 Nov 1982</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-91.5500000,16.0900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 6141]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2044186" target="_blank">Purpus, Carl (Karl) Albert - 6141</a></td></tr><tr><td>Oct 1912</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.3300000,20.4300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 3708]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>caudatum</i> L.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2044928" target="_blank">Purpus, Carl (Karl) Albert - 3708</a></td></tr><tr><td>Nov 1908</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.3300000,20.4300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Stafford, Peter J. - 300]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1714306" target="_blank">Stafford, Peter J. - 300</a></td></tr><tr><td>7 Feb 1990</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.2300000,15.3100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 3888]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041076" target="_blank">Ton, Alush Shilom - 3888</a></td></tr><tr><td>26 Mar 1968</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.0500000,16.1700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 46464]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041077" target="_blank">Breedlove, Dennis E. - 46464</a></td></tr><tr><td>18 October 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-91.9700000,16.0500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 51622]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041079" target="_blank">Breedlove, Dennis E. - 51622</a></td></tr><tr><td>18 Jul 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.0700000,16.1400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 55809]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041100" target="_blank">Breedlove, Dennis E. - 55809</a></td></tr><tr><td>23 Nov 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.3000000,15.4000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 26817]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1451962" target="_blank">Breedlove, Dennis E. - 26817</a></td></tr><tr><td>03 August 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8400000,16.9600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 7848]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2036253" target="_blank">Breedlove, Dennis E. - 7848</a></td></tr><tr><td>12 Dec 1964</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6700000,16.8400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 13743]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2036255" target="_blank">Breedlove, Dennis E. - 13743</a></td></tr><tr><td>21 October 1965</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6700000,16.8400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Laughlin, Robert M. - 153]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2036260" target="_blank">Laughlin, Robert M. - 153</a></td></tr><tr><td>18 Feb 1966</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6900000,16.7500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 26775]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048408" target="_blank">Breedlove, Dennis E. - 26775</a></td></tr><tr><td>03 August 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8400000,16.9600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 9835]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>donnell-smithii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048468" target="_blank">Ton, Alush Shilom - 9835</a></td></tr><tr><td>15 November 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6200000,16.7500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 38060]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>crassifolium</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047929" target="_blank">Breedlove, Dennis E. - 38060</a></td></tr><tr><td>04 October 1974</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.7500000,16.8300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 54851]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>crassifolium</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1451957" target="_blank">Breedlove, Dennis E. - 54851</a></td></tr><tr><td>6 Nov 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.3100000,16.4800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 4297]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1450765" target="_blank">Cabrera Cano, Edgar Francisco - 4297</a></td></tr><tr><td>27 Dec 1982</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-87.5800000,20.1200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 11927]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1451857" target="_blank">Cabrera Cano, Edgar Francisco - 11927</a></td></tr><tr><td>29 Jul 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.0700000,18.1900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 12464]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1451861" target="_blank">Cabrera Cano, Edgar Francisco - 12464</a></td></tr><tr><td>20 Nov 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-91.7400000,17.7100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Chan V., C. - 4732]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041023" target="_blank">Chan V., C. - 4732</a></td></tr><tr><td>28 Feb 1985</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.1300000,18.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Matuda, Eizi - 3562]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452065" target="_blank">Matuda, Eizi - 3562</a></td></tr><tr><td>01 July 1939 - 05 July 1939</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-91.4900000,17.4400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Durán, Rafael - 685]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452069" target="_blank">Durán, Rafael - 685</a></td></tr><tr><td>30 Nov 1983</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-87.7400000,19.8900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 20250]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452072" target="_blank">Breedlove, Dennis E. - 20250</a></td></tr><tr><td>09 October 1971</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.3200000,16.8800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ucán Ek, E. - 3455]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452076" target="_blank">Ucán Ek, E. - 3455</a></td></tr><tr><td>3 Aug 1984</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.2600000,20.7100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hanan-Alipi, Ana Maria - 982]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1833954" target="_blank">Hanan-Alipi, Ana Maria - 982</a></td></tr><tr><td>14 Jun 1997</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9700000,18.3800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 42838]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041571" target="_blank">Breedlove, Dennis E. - 42838</a></td></tr><tr><td>20 December 1976 - 21 December 1976</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-90.9600000,16.8900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 30775]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041573" target="_blank">Breedlove, Dennis E. - 30775</a></td></tr><tr><td>25 December 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.3200000,16.8800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cowan, Clark P. - 2113]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041579" target="_blank">Cowan, Clark P. - 2113</a></td></tr><tr><td>5 Jun 1979</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.4000000,18.4200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cowan, Clark P. - 3202]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041585" target="_blank">Cowan, Clark P. - 3202</a></td></tr><tr><td>8 Sep 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.0800000,18.4100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cowan, Clark P. - 1612]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041590" target="_blank">Cowan, Clark P. - 1612</a></td></tr><tr><td>7 Oct 1978</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.0000000,18.1900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cowan, Clark P. - 3207]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041603" target="_blank">Cowan, Clark P. - 3207</a></td></tr><tr><td>8 Sep 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.0800000,18.3000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Fernández Nava, Rafael - 1437]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047947" target="_blank">Fernández Nava, Rafael - 1437</a></td></tr><tr><td>12 mar 1983</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.4400000,17.9700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Novelo Retano, Alejandro - 1699]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048550" target="_blank">Novelo Retano, Alejandro - 1699</a></td></tr><tr><td>05 Oct 1996</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.1400000,18.0600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ventura A., Angel - 21234]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049030" target="_blank">Ventura A., Angel - 21234</a></td></tr><tr><td>14 septiembre 1976</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.9900000,19.1600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 15016]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049166" target="_blank">Cabrera Cano, Edgar Francisco - 15016</a></td></tr><tr><td>28 Nov 1987</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.2000000,18.4000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Novelo Retano, Alejandro - 3320]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049359" target="_blank">Novelo Retano, Alejandro - 3320</a></td></tr><tr><td>01 Nov 1998</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6600000,18.2400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Schultz, G. P. - 1198]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049563" target="_blank">Schultz, G. P. - 1198</a></td></tr><tr><td>17 July 1999</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-87.1800000,21.2200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 21661]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049637" target="_blank">Breedlove, Dennis E. - 21661</a></td></tr><tr><td>02 November 1971</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.3200000,16.8800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gutiérrez-González - 1]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050735" target="_blank">Gutiérrez-González - 1</a></td></tr><tr><td>13 nov 1982</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8500000,18.1200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 5922]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050800" target="_blank">Purpus, Carl (Karl) Albert - 5922</a></td></tr><tr><td>Aug 1912</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.8300000,19.9300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 41453]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>glabrum</i> (S. Watson) Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452064" target="_blank">Breedlove, Dennis E. - 41453</a></td></tr><tr><td>12 Nov 1976</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6800000,16.7300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Pringle, Cyrus Guernsey - 2442]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>glabrum</i> (S. Watson) Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445062" target="_blank">Pringle, Cyrus Guernsey - 2442</a></td></tr><tr><td>16 Dec 1889</td></tr><tr><td><a href="http://www.tropicos.org/image/31227" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/279/MO-152533.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-103.0500000,20.2100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Sousa Sánchez, Mario - 12309]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>calvum</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445064" target="_blank">Sousa Sánchez, Mario - 12309</a></td></tr><tr><td>1 May 1982</td></tr><tr><td><a href="http://www.tropicos.org/image/3537" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152530.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-86.8700000,20.9100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Webster, Grady Linder - 17012]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>flabellifolium</i> S. Watson</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047861" target="_blank">Webster, Grady Linder - 17012</a></td></tr><tr><td>21 June 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-110.6000000,27.9300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Johnson, Clarence Dan - 151-77]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>flabellifolium</i> S. Watson</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048339" target="_blank">Johnson, Clarence Dan - 151-77</a></td></tr><tr><td>24 December 1977</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-110.9500000,27.9500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Van Devender, Thomas Roger - 93-818]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>flabellifolium</i> S. Watson</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049421" target="_blank">Van Devender, Thomas Roger - 93-818</a></td></tr><tr><td>19 September 1993</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-110.5700000,27.9100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gentry, Howard Scott - 4721]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>flabellifolium</i> S. Watson</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048880" target="_blank">Gentry, Howard Scott - 4721</a></td></tr><tr><td>24 October 1939</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-110.9700000,27.9500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 6142]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ellipticum</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050516" target="_blank">Purpus, Carl (Karl) Albert - 6142</a></td></tr><tr><td>Sep 1912</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.3000000,19.3300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ventura A., Francisco - 20639]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ellipticum</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048877" target="_blank">Ventura A., Francisco - 20639</a></td></tr><tr><td>26 Aug 1983</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.3200000,18.4400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ventura A., Francisco - 20549]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ellipticum</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452052" target="_blank">Ventura A., Francisco - 20549</a></td></tr><tr><td>18 Aug 1983</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.0200000,18.2000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 14539]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ellipticum</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1452062" target="_blank">Cabrera Cano, Edgar Francisco - 14539</a></td></tr><tr><td>21 Sept 1987</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-91.8300000,18.6400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 5829]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>gleasonianum</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445061" target="_blank">Purpus, Carl (Karl) Albert - 5829</a></td></tr><tr><td>May 1912</td></tr><tr><td><a href="http://www.tropicos.org/image/34227" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152534.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.3300000,18.8300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Chiang Cabrera, Fernando - F-243]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>gleasonianum</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048141" target="_blank">Chiang Cabrera, Fernando - F-243</a></td></tr><tr><td>31 agosto 1979</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.3400000,18.6900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Stevens, Warren Douglas - 1410]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>lucidum</i> Schltdl. & Cham.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3409026" target="_blank">Stevens, Warren Douglas - 1410</a></td></tr><tr><td>10 Aug 1971</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.8100000,19.2000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Chiang Cabrera, Fernando - 8180]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>rosei</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048620" target="_blank">Chiang Cabrera, Fernando - 8180</a></td></tr><tr><td>30 June 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.1200000,22.0800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 20954]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048822" target="_blank">Breedlove, Dennis E. - 20954</a></td></tr><tr><td>20 October 1971</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.4500000,16.8800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 28145]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049079" target="_blank">Breedlove, Dennis E. - 28145</a></td></tr><tr><td>27 September 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.4600000,16.8900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Novelo Retano, Alejandro - 2866]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050440" target="_blank">Novelo Retano, Alejandro - 2866</a></td></tr><tr><td>18/9/1998</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.3400000,18.1100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 21021]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1450767" target="_blank">Breedlove, Dennis E. - 21021</a></td></tr><tr><td>20 October 1971</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.4500000,16.8800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 13625]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041386" target="_blank">Breedlove, Dennis E. - 13625</a></td></tr><tr><td>19 October 1965</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.5200000,19.9900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 2913]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041515" target="_blank">Ton, Alush Shilom - 2913</a></td></tr><tr><td>15 aug 1967</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8900000,17.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Martínez Salas, Esteban Manuel - 28399]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1833950" target="_blank">Martínez Salas, Esteban Manuel - 28399</a></td></tr><tr><td>12 Ago 1997</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.6800000,18.5200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Téllez Valdés, Oswaldo - 3644]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048341" target="_blank">Téllez Valdés, Oswaldo - 3644</a></td></tr><tr><td>13 oct 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.0700000,18.0200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Novelo Retano, Alejandro - 3038]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2693051" target="_blank">Novelo Retano, Alejandro - 3038</a></td></tr><tr><td>22 Sept. 1998</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6100000,18.2700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ayala, Maria Guadalupe - 148]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hirtellum</i> Standl.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2087484" target="_blank">Ayala, Maria Guadalupe - 148</a></td></tr><tr><td>27 agosto 1985</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-105.0300000,19.4700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Croat, Thomas Bernard - 65141]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>recurvatum</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/441959" target="_blank">Croat, Thomas Bernard - 65141</a></td></tr><tr><td>17 February 1987</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9600000,17.2100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Stevens, Warren Douglas - 1867]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>viride</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3596057" target="_blank">Stevens, Warren Douglas - 1867</a></td></tr><tr><td>1 September 1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.8700000,19.3400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Lundell, Cyrus Longworth - 7679]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2081362" target="_blank">Lundell, Cyrus Longworth - 7679</a></td></tr><tr><td>Jun 1938 - Jul 1938</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-87.7300000,20.4900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Juzepczuk, Sergei Vasilievic - 1869]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090061" target="_blank">Juzepczuk, Sergei Vasilievic - 1869</a></td></tr><tr><td>2 Feb 1926</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.3500000,17.2000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 3555]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090084" target="_blank">Ton, Alush Shilom - 3555</a></td></tr><tr><td>23 Jan 1968</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.7900000,15.7100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 2913]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090087" target="_blank">Ton, Alush Shilom - 2913</a></td></tr><tr><td>15 Aug 1967</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8900000,17.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 2826]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090088" target="_blank">Ton, Alush Shilom - 2826</a></td></tr><tr><td>15 Aug 1967</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8900000,17.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 3598]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090094" target="_blank">Ton, Alush Shilom - 3598</a></td></tr><tr><td>23 Jan 1968</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.7900000,15.7100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 3913]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090119" target="_blank">Ton, Alush Shilom - 3913</a></td></tr><tr><td>3 Apr 1968</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8900000,17.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Martínez-Camilo, Rubén - 465]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3202647" target="_blank">Martínez-Camilo, Rubén - 465</a></td></tr><tr><td>24 Feb</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-93.0800000,15.7500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 8744]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/3619284" target="_blank">Hinton, George Boole - 8744</a></td></tr><tr><td>26 November 1935</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.4700000,18.8700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Krömer, Thorsten - 3258]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100396738" target="_blank">Krömer, Thorsten - 3258</a></td></tr><tr><td>27 April 2008</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.0000000,18.6500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Jimeno Sevilla, D. - DJS944]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100419550" target="_blank">Jimeno Sevilla, D. - DJS944</a></td></tr><tr><td>10 February 2009</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.0200000,19.5800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Castillo-Hernández, Luis A. - 305]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100778779" target="_blank">Castillo-Hernández, Luis A. - 305</a></td></tr><tr><td>14 diciembre 2011</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.0200000,18.6500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Castillo-Hernández, Luis A. - 389]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100778807" target="_blank">Castillo-Hernández, Luis A. - 389</a></td></tr><tr><td>03 febrero 2012</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.0100000,18.6500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Castillo-Hernández, Luis A. - 396]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100778861" target="_blank">Castillo-Hernández, Luis A. - 396</a></td></tr><tr><td>04 febrero 2012</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.0100000,18.6600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 7305]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050850" target="_blank">Ton, Alush Shilom - 7305</a></td></tr><tr><td>21 febrero 1984</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.4500000,16.8200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Velasco López, Esaú - 203]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050949" target="_blank">Velasco López, Esaú - 203</a></td></tr><tr><td>5 febrero 1988</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.0300000,17.3000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Téllez Valdés, Oswaldo - 11705]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2051019" target="_blank">Téllez Valdés, Oswaldo - 11705</a></td></tr><tr><td>2 Feb 1989</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-104.9200000,21.4700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Clarke, Oscar F. - 700623-49]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2056500" target="_blank">Clarke, Oscar F. - 700623-49</a></td></tr><tr><td>23 Jun 1970</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9600000,17.2100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 31102]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2056981" target="_blank">Breedlove, Dennis E. - 31102</a></td></tr><tr><td>29 December 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.3000000,15.4000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Matuda, Eizi - 2663]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2070372" target="_blank">Matuda, Eizi - 2663</a></td></tr><tr><td>Feb 1939</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6100000,15.4100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Stevens, Warren Douglas - 25687]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/444237" target="_blank">Stevens, Warren Douglas - 25687</a></td></tr><tr><td>17 Sep 1988</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.4100000,15.3100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Matuda, Eizi - S-181]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445614" target="_blank">Matuda, Eizi - S-181</a></td></tr><tr><td>28 December 1936</td></tr><tr><td><a href="http://www.tropicos.org/image/24960" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152512.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.4300000,15.4300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Calzada, Juan Ismael - 8740]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1833941" target="_blank">Calzada, Juan Ismael - 8740</a></td></tr><tr><td>10 May 1982</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8600000,15.6600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 3913]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041641" target="_blank">Ton, Alush Shilom - 3913</a></td></tr><tr><td>3 Apr 1968</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8900000,17.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 49349]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041648" target="_blank">Breedlove, Dennis E. - 49349</a></td></tr><tr><td>9 Jan 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8400000,17.0200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 62163]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041651" target="_blank">Breedlove, Dennis E. - 62163</a></td></tr><tr><td>06 Nov 1984</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-91.7900000,16.5200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 2826]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041652" target="_blank">Ton, Alush Shilom - 2826</a></td></tr><tr><td>15 Aug 1967</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.8900000,17.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 6057]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047680" target="_blank">Hinton, George Boole - 6057</a></td></tr><tr><td>16 May 1934</td></tr><tr><td><a href="http://www.tropicos.org/image/100022880" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100022000/100022880.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.4500000,18.8600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 26371]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047741" target="_blank">Breedlove, Dennis E. - 26371</a></td></tr><tr><td>25 July 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9200000,17.0600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 5393]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047886" target="_blank">Hinton, George Boole - 5393</a></td></tr><tr><td>24 Dec 1933</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.4500000,18.8600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hernández Magaña, Rafael - 1765]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050476" target="_blank">Hernández Magaña, Rafael - 1765</a></td></tr><tr><td>11-01-1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.9500000,19.5800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Dorantes López, Jesús - 00556]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050602" target="_blank">Dorantes López, Jesús - 00556</a></td></tr><tr><td>05-04-1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.8200000,19.5800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Ton, Alush Shilom - 9851]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049448" target="_blank">Ton, Alush Shilom - 9851</a></td></tr><tr><td>15 November 1986</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6200000,16.7500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Velasco López, Esaú - 350]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049649" target="_blank">Velasco López, Esaú - 350</a></td></tr><tr><td>1 febrero 1990</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.0300000,17.3000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 22617]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050052" target="_blank">Breedlove, Dennis E. - 22617</a></td></tr><tr><td>17 November 1971</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.2700000,15.3300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 31658]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050133" target="_blank">Breedlove, Dennis E. - 31658</a></td></tr><tr><td>16 January 1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.1000000,15.1000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 49681]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048459" target="_blank">Breedlove, Dennis E. - 49681</a></td></tr><tr><td>28 Jan 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.4500000,16.8200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Nee, Michael Harley - 26186]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048621" target="_blank">Nee, Michael Harley - 26186</a></td></tr><tr><td>March 22, 1983</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.9700000,19.5700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Campos Villanueva, Alvaro - 1445]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048667" target="_blank">Campos Villanueva, Alvaro - 1445</a></td></tr><tr><td>23 Feb 1988</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.5300000,15.9800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 31024]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> var. <i>longibracteolatum</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2047948" target="_blank">Breedlove, Dennis E. - 31024</a></td></tr><tr><td>28 December 1972</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.2700000,15.3300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Matuda, Eizi - 3923]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinnoi</i> var. <i>longibracteolatum</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1450774" target="_blank">Matuda, Eizi - 3923</a></td></tr><tr><td>14 Nov 1939 - 18 Nov 1939</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.6100000,15.4100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gentry, Alwyn Howard - 32340]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>pterocladum</i> Donn. Sm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1489378" target="_blank">Gentry, Alwyn Howard - 32340</a></td></tr><tr><td>27 May 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.0700000,18.5700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Breedlove, Dennis E. - 40360]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>steyermarkii</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1450729" target="_blank">Breedlove, Dennis E. - 40360</a></td></tr><tr><td>19 September 1976</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.3200000,15.4600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 3209]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hintoni</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445581" target="_blank">Hinton, George Boole - 3209</a></td></tr><tr><td>26 Jan 1933</td></tr><tr><td><a href="http://www.tropicos.org/image/100022700" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100022000/100022700.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.1500000,18.9000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gómez Pompa, Arturo - 2538]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hintoni</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2041313" target="_blank">Gómez Pompa, Arturo - 2538</a></td></tr><tr><td>11 Ago 1967</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.9000000,17.1900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 3399]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hintoni</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048823" target="_blank">Hinton, George Boole - 3399</a></td></tr><tr><td>16 Feb 1933</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.4200000,18.7700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 7661]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hintoni</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049299" target="_blank">Hinton, George Boole - 7661</a></td></tr><tr><td>25 Apr 1935</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.2900000,18.9200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 7514]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hintoni</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049769" target="_blank">Hinton, George Boole - 7514</a></td></tr><tr><td>13 Mar 1935</td></tr><tr><td><a href="http://www.tropicos.org/image/100023021" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100023000/100023021.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.1500000,18.9000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 7534]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hintoni</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2051001" target="_blank">Hinton, George Boole - 7534</a></td></tr><tr><td>19 Mar 1935</td></tr><tr><td><a href="http://www.tropicos.org/image/100023025" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100023000/100023025.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.4200000,18.7700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gaumer, George F. - 1944]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090002" target="_blank">Gaumer, George F. - 1944</a></td></tr><tr><td></td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.7600000,19.9000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gaumer, George F. - 23163]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090003" target="_blank">Gaumer, George F. - 23163</a></td></tr><tr><td>jul</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.0200000,20.9300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Steere, William Campbell - 1337]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090005" target="_blank">Steere, William Campbell - 1337</a></td></tr><tr><td>16 jun 1932</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.5700000,20.6800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Lundell, Cyrus Longworth - 7878]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090006" target="_blank">Lundell, Cyrus Longworth - 7878</a></td></tr><tr><td>may 1938 - ago 1938</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.5900000,20.7000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Lundell, Cyrus Longworth - 7781]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090007" target="_blank">Lundell, Cyrus Longworth - 7781</a></td></tr><tr><td>Jun 1938 - Jul 1938</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-87.7300000,20.4900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gaumer, George F. - 24037]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090008" target="_blank">Gaumer, George F. - 24037</a></td></tr><tr><td>1917 - 1921</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.0000000,20.8200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gaumer, George F. - 23463]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090009" target="_blank">Gaumer, George F. - 23463</a></td></tr><tr><td>nov 1916</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.7300000,20.8200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Gaumer, George F. - 765bis]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090010" target="_blank">Gaumer, George F. - 765bis</a></td></tr><tr><td></td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.0200000,20.9300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Lundell, Cyrus Longworth - 8132]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090012" target="_blank">Lundell, Cyrus Longworth - 8132</a></td></tr><tr><td>may 1938 - ago 1938</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.6500000,21.1900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Steere, William Campbell - 1660]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090013" target="_blank">Steere, William Campbell - 1660</a></td></tr><tr><td>29 jun 1932</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.5700000,20.6800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Steere, William Campbell - 1419]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090027" target="_blank">Steere, William Campbell - 1419</a></td></tr><tr><td>20 jun 1932</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.5700000,20.6800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Bradburn, Anne S. - 1110]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2090028" target="_blank">Bradburn, Anne S. - 1110</a></td></tr><tr><td>20 jul 1978</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.6000000,21.0800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 9755]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049033" target="_blank">Cabrera Cano, Edgar Francisco - 9755</a></td></tr><tr><td>02 oct 1985</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.2400000,20.6500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 4120]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2040837" target="_blank">Cabrera Cano, Edgar Francisco - 4120</a></td></tr><tr><td>19 Dec 1982</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.2900000,18.6600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hansen, Bruce Frederick - 7478]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048261" target="_blank">Hansen, Bruce Frederick - 7478</a></td></tr><tr><td>27 June 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.6300000,19.3300000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Cabrera Cano, Edgar Francisco - 9320]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1451863" target="_blank">Cabrera Cano, Edgar Francisco - 9320</a></td></tr><tr><td>24 sep 1985</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-88.1600000,20.6900000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Schott, Arthur Carl Victor - 575]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>schottii</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445056" target="_blank">Schott, Arthur Carl Victor - 575</a></td></tr><tr><td>28 jul 1865</td></tr><tr><td><a href="http://www.tropicos.org/image/25709" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152541.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-89.6200000,20.9800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Pringle, Cyrus Guernsey - 6540]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ovatifolium</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1444770" target="_blank">Pringle, Cyrus Guernsey - 6540</a></td></tr><tr><td>August 1896 - September 1896</td></tr><tr><td><a href="http://www.tropicos.org/image/29561" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152409.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.2300000,18.9100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Croat, Thomas Bernard - 62880]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ovatifolium</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/449618" target="_blank">Croat, Thomas Bernard - 62880</a></td></tr><tr><td>11 Jan 1987</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.9700000,25.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Moreno G., S. - 36]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ovatifolium</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048556" target="_blank">Moreno G., S. - 36</a></td></tr><tr><td>10 marzo 1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.9500000,18.8400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 2896]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ovatifolium</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050334" target="_blank">Hinton, George Boole - 2896</a></td></tr><tr><td>08 Dec 1932</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.0400000,18.9000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 15606]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049696" target="_blank">Hinton, George Boole - 15606</a></td></tr><tr><td>30 Oct 1940</td></tr><tr><td><a href="http://www.tropicos.org/image/100011618" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100011000/100011618.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-102.3500000,19.3000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Lundell, Cyrus Longworth - 12642]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049022" target="_blank">Lundell, Cyrus Longworth - 12642</a></td></tr><tr><td>01 November 1943</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.1000000,20.1600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Vargas Ajuria, Yvonne A. - 292]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048474" target="_blank">Vargas Ajuria, Yvonne A. - 292</a></td></tr><tr><td>3.V.1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.4600000,20.6100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Boege, L. Wolfgang - 2778]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049155" target="_blank">Boege, L. Wolfgang - 2778</a></td></tr><tr><td>18 abril 1973</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.2900000,19.9100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Pringle, Cyrus Guernsey - 8969]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445059" target="_blank">Pringle, Cyrus Guernsey - 8969</a></td></tr><tr><td>22 Apr 1904</td></tr><tr><td><a href="http://www.tropicos.org/image/38774" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152536.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.2100000,20.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hernández Magaña, Rafael - 5784]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048409" target="_blank">Hernández Magaña, Rafael - 5784</a></td></tr><tr><td>Abril 25, 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.6600000,20.7100000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hernández Magaña, Rafael - 5831]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048069" target="_blank">Hernández Magaña, Rafael - 5831</a></td></tr><tr><td>26 April 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.7100000,20.6400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Vargas Ajuria, Yvonne A. - 249]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hidalgense</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048210" target="_blank">Vargas Ajuria, Yvonne A. - 249</a></td></tr><tr><td>2.V.1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.4600000,20.6200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hansen, Bruce Frederick - 7556]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>kerberi</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048686" target="_blank">Hansen, Bruce Frederick - 7556</a></td></tr><tr><td>3 July 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.6800000,18.8000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hansen, Bruce Frederick - 7537]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>kerberi</i> Greenm.</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050256" target="_blank">Hansen, Bruce Frederick - 7537</a></td></tr><tr><td>3 July 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-96.6700000,18.8000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Rose, Joseph Nelson - 14785]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ligustrinum</i> Van Houtte</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048824" target="_blank">Rose, Joseph Nelson - 14785</a></td></tr><tr><td>18 April 1910</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-107.2700000,24.3000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Conrad, James - 3257]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ligustrinum</i> Van Houtte</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048280" target="_blank">Conrad, James - 3257</a></td></tr><tr><td>31 August 1974</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.1900000,20.1400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Pringle, Cyrus Guernsey - 8932]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ligustrinum</i> Van Houtte</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1444766" target="_blank">Pringle, Cyrus Guernsey - 8932</a></td></tr><tr><td>13 Jul 1904</td></tr><tr><td><a href="http://www.tropicos.org/image/41440" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152408.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.2100000,20.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Pringle, Cyrus Guernsey - 15608]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>ligustrinum</i> Van Houtte</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050729" target="_blank">Pringle, Cyrus Guernsey - 15608</a></td></tr><tr><td>21, June 1908</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-98.2100000,20.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Taylor, K. - 318]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mexicanum</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049704" target="_blank">Taylor, K. - 318</a></td></tr><tr><td>Feb 8, 1984</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.0700000,18.7200000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Rose, Joseph Nelson - 13397]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>scabrum</i> Sessé & Moc. ex D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050398" target="_blank">Rose, Joseph Nelson - 13397</a></td></tr><tr><td>March 1910</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-108.7700000,26.0800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Rose, Joseph Nelson - 14949]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>scabrum</i> Sessé & Moc. ex D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050051" target="_blank">Rose, Joseph Nelson - 14949</a></td></tr><tr><td>21 April 1910</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-107.4000000,24.8000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Wright, William Greenwood - 1225]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>scabrum</i> Sessé & Moc. ex D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1444774" target="_blank">Wright, William Greenwood - 1225</a></td></tr><tr><td>December 1888</td></tr><tr><td><a href="http://www.tropicos.org/image/26574" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152410.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-106.3800000,23.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 5337]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>oleinum</i> (Benth. ex Lindl.) Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445057" target="_blank">Purpus, Carl (Karl) Albert - 5337</a></td></tr><tr><td>May 1911</td></tr><tr><td><a href="http://www.tropicos.org/image/26605" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152540.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-100.3700000,22.1500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[González Medrano, Francisco - s.n.]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>oleinum</i> (Benth. ex Lindl.) Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2049576" target="_blank">González Medrano, Francisco - s.n.</a></td></tr><tr><td>01 mayo 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.6200000,18.9700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Salinas Tovar, Antonio - 5627]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>oleinum</i> (Benth. ex Lindl.) Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050265" target="_blank">Salinas Tovar, Antonio - 5627</a></td></tr><tr><td>Septiembre 10, 1990</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.3700000,18.0000000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[González Medrano, Francisco - F-746]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>oleinum</i> (Benth. ex Lindl.) Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048965" target="_blank">González Medrano, Francisco - F-746</a></td></tr><tr><td>23 marzo 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.5700000,18.2400000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[González Medrano, Francisco - s.n.]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>oleinum</i> (Benth. ex Lindl.) Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2048551" target="_blank">González Medrano, Francisco - s.n.</a></td></tr><tr><td>02 mayo 1980</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.6300000,18.4600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Chiang Cabrera, Fernando - F-276]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>oleinum</i> (Benth. ex Lindl.) Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050736" target="_blank">Chiang Cabrera, Fernando - F-276</a></td></tr><tr><td>01 septiembre 1979</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-97.4100000,18.5600000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 1449]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>lycioides</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2050663" target="_blank">Purpus, Carl (Karl) Albert - 1449</a></td></tr><tr><td>Jun 1937</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.2000000,20.4700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Purpus, Carl (Karl) Albert - 1449]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>lycioides</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1445058" target="_blank">Purpus, Carl (Karl) Albert - 1449</a></td></tr><tr><td>Jul 1905</td></tr><tr><td><a href="http://www.tropicos.org/image/26616" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/Tropicos/337/MO-152539.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-99.2000000,20.4700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Matuda, Eizi - 5492]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>matudae</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/1451854" target="_blank">Matuda, Eizi - 5492</a></td></tr><tr><td>15 May 1945</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-92.2100000,15.2500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Hinton, George Boole - 15678]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>sessei</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2693139" target="_blank">Hinton, George Boole - 15678</a></td></tr><tr><td>13 Nov 1940</td></tr><tr><td><a href="http://www.tropicos.org/image/100011630" target="_blank"><img src="http://images.mobot.org/tropicosthumbnails/TropicosImages2/100011000/100011630.jpg" style="border: none;" /></a></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-102.3500000,19.3500000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Wendt, Thomas (Tom) Leighton - 3465]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>hexangulare</i> fo. <i>parvifolium</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100372564" target="_blank">Wendt, Thomas (Tom) Leighton - 3465</a></td></tr><tr><td>25 November 1981</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-94.9000000,17.0800000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Moran, Reid Venable - 23834]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>roxanae</i> Moldenke</td></tr><tr><td><a href="http://www.tropicos.org/specimen/2693157" target="_blank">Moran, Reid Venable - 23834</a></td></tr><tr><td>24 November 1976</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-113.0300000,27.5700000,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name><![CDATA[Velasco Gutiérrez, Kenia - 1835]]></name>
+         <styleUrl>#icon1</styleUrl>
+         <Snippet />
+         <description><![CDATA[<table border="0"><tr><td><i>Citharexylum</i> <i>mocinni</i> D. Don</td></tr><tr><td><a href="http://www.tropicos.org/specimen/100486282" target="_blank">Velasco Gutiérrez, Kenia - 1835</a></td></tr><tr><td>28 febrero 2007</td></tr><tr><td></td></tr></table>]]></description>
+         <Point>
+            <coordinates>-95.5200000,16.7300000,0</coordinates>
+         </Point>
+      </Placemark>
+   </Document>
